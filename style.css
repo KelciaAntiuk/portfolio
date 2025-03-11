@@ -94,3 +94,18 @@ a {
     outline: none; /* Remove o contorno */
     box-shadow: 0 0 0 2px #ff64a5; /* Sombra ao redor do botão para foco */
 }
+
+.intro-image img {
+    width: 300px; /* Largura da imagem */
+    height: 300px; /* Altura da imagem */
+    border-radius: 50%; /* Bordas arredondadas para a imagem */
+    object-fit: cover; /* Garante que a imagem não distorça */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave na imagem */
+}
+
+/* Estilo para o texto */
+.intro h1 {
+    font-size: 5rem;
+    text-align: left; /* Alinha o texto à esquerda */
+    color: #333;
+}
