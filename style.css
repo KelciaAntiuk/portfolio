@@ -95,13 +95,23 @@ a {
     box-shadow: 0 0 0 2px #ff64a5; /* Sombra ao redor do botão para foco */
 }
 
-.intro-image img {
+.intro-image {
+    margin-left: 300px; /* Margem para a posição correta */
     width: 300px; /* Largura da imagem */
     height: 300px; /* Altura da imagem */
-    border-radius: 50%; /* Bordas arredondadas para a imagem */
-    object-fit: cover; /* Garante que a imagem não distorça */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave na imagem */
+    border-radius: 50%; /* Bordas arredondadas */
+    object-fit: cover; /* Garante que a imagem se ajuste ao contêiner sem distorcer */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo, se necessário */
+    align-items: center; /* Alinha o conteúdo verticalmente */
+    background-image: url('kelcia.png'); /* Caminho da sua imagem */
+    background-size: cover; /* Faz com que a imagem cubra todo o contêiner */
+    background-position: center; /* Garante que a imagem fique centralizada */
+    transform: rotate(180deg); /* Corrige a rotação da imagem */
+    margin-top: -200px;
 }
+
 
 /* Estilo para o texto */
 .intro h1 {
