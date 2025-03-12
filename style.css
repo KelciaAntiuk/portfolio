@@ -151,6 +151,7 @@ a {
     width: 100px; /* Ajuste o tamanho das imagens conforme necessário */
     height: 100px; /* Ajuste o tamanho das imagens conforme necessário */
     margin-bottom: 8px; /* Espaço entre a imagem e o texto */
+}
 
 .intro-text-about-img p {
     margin: 0;
@@ -168,5 +169,3 @@ a {
     margin-left: 60px;
     line-height: 1.6; /* Melhor legibilidade, aumentando o espaçamento entre as linhas dentro de cada parágrafo */
 }
-
-
