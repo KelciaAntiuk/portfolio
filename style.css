@@ -45,12 +45,13 @@ a {
     display: flex;
     margin-left:2.5%;
     font-size: 1rem;
+    line-height: 1.6;
 
 }
 .intro-text-about{
     display: flex;
     margin-left:2.5%;
-    font-size: 1.5rem;
+    line-height: 1.6;
 
 }
 
@@ -125,3 +126,47 @@ a {
     text-align: left; /* Alinha o texto à esquerda */
     color: #333;
 }
+
+.intro-text-about-img {
+    display: flex;
+    flex-direction: row; /* Mantém os itens em linha */
+    flex-wrap: wrap; /* Permite que quebrem para a linha seguinte, se necessário */
+}
+
+.tech-item {
+    position: relative;
+    margin: 0 15px; /* Espaçamento entre as palavras */
+}
+
+.tech-image {
+    display: block;
+    margin: 0 auto;
+    width: 60px; /* Ajuste o tamanho das imagens conforme necessário */
+    height: 60px; /* Ajuste o tamanho das imagens conforme necessário */
+    margin-bottom: 8px; /* Espaço entre a imagem e o texto */
+}
+.tech-image-whats {
+    display: block;
+    margin: 0 auto;
+    width: 100px; /* Ajuste o tamanho das imagens conforme necessário */
+    height: 100px; /* Ajuste o tamanho das imagens conforme necessário */
+    margin-bottom: 8px; /* Espaço entre a imagem e o texto */
+
+.intro-text-about-img p {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Para garantir que as palavras fiquem em linha ou se ajustem conforme a tela */
+}
+
+.intro-text-about-projects {
+    display: block; /* Garante que os elementos dentro da div sejam exibidos como blocos */
+}
+
+.intro-text-about-projects p {
+    margin-bottom: 10px; /* Espaço entre os parágrafos */
+    margin-left: 60px;
+    line-height: 1.6; /* Melhor legibilidade, aumentando o espaçamento entre as linhas dentro de cada parágrafo */
+}
+
+
